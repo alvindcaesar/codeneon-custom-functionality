@@ -7,7 +7,7 @@
  * @copyright   Copyright (c) 2022, Alvind Caesar
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       1.0.0
- * @author      Alvind CAesar <hello@alvindcaesar.com>
+ * @author      Alvind Caesar <hello@alvindcaesar.com>
  */
 
 class CCFP_Init {
@@ -17,7 +17,7 @@ class CCFP_Init {
 	 */
 	public function __construct() {
 
-		// $register_post_types     = new CFT_Register_Post_Types();
+		// $register_post_types     = new CCFP_Register_Post_Types();
 		
 		
 	}
