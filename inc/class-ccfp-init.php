@@ -17,7 +17,7 @@ class CCFP_Init {
 	 */
 	public function __construct() {
 
-		// $register_post_types     = new CCFP_Register_Post_Types();
+		$register_post_types     = new CCFP_Register_Post_Types();
 		
 		
 	}
