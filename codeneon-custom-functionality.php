@@ -100,6 +100,7 @@ if( !class_exists( 'CCFP' ) ) {
 		private function includes() {
 			// Require all function classes here
 			require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-init.php';
+      require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-register-post-types.php';
 		}
 
     /**
