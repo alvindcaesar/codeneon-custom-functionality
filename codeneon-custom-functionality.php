@@ -102,6 +102,8 @@ if( !class_exists( 'CCFP' ) ) {
 			require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-init.php';
       require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-register-post-types.php';
 			require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-disable-auto-updates.php';
+			require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-remove-menu-pages.php';
+
 		}
 
     /**
