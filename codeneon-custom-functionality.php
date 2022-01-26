@@ -6,7 +6,7 @@
  * @copyright   Copyright (c) 2022, Alvind Caesar
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       1.0.0
- * @author      Alvind CAesar <hello@alvindcaesar.com>
+ * @author      Alvind Caesar <hello@alvindcaesar.com>
  * 
  * @wordpress-plugin
  * Plugin Name:   Codeneon Custom Functionality
@@ -101,6 +101,7 @@ if( !class_exists( 'CCFP' ) ) {
 			// Require all function classes here
 			require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-init.php';
       require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-register-post-types.php';
+			require_once CCFP_PLUGIN_DIR . 'inc/class-ccfp-disable-auto-updates.php';
 		}
 
     /**
