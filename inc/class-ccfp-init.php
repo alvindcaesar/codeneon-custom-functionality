@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Main Init Class
  *
@@ -10,18 +11,17 @@
  * @author      Alvind Caesar <hello@alvindcaesar.com>
  */
 
-class CCFP_Init {
+class CCFP_Init
+{
 
 	/**
 	 * Initialize the class
 	 */
-	public function __construct() {
+	public function __construct()
+	{
 
 		$register_post_types     = new CCFP_Register_Post_Types();
 		$disable_auto_updates		 = new CCFP_Disable_Auto_Updates();
 		$remove_menu_pages			 = new CCFP_Remove_Menu_Pages();
-		
-		
 	}
-
 }
