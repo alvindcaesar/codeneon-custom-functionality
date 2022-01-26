@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Register custom post types
  *
@@ -10,13 +11,15 @@
  * @author      Alvind Caesar <hello@alvindcaesar.com>
  */
 
-class CCFP_Register_Post_Types {
+class CCFP_Register_Post_Types
+{
 
     /**
      * Initialize the class
      */
-    public function __construct() {
-       add_action( 'init', array( $this, 'register_example_post_type' ) );
+    public function __construct()
+    {
+        add_action('init', array($this, 'register_example_post_type'));
     }
 
 
@@ -27,19 +30,21 @@ class CCFP_Register_Post_Types {
      * @access public
      * @return void
      */
-    public function register_example_post_type() {
-      register_post_type( 'example',
-          array(
-              'labels'        => array(
-              'name'          => __( 'Examples' ),
-              'singular_name' => __( 'Example' ),
-              'add_new'       => __( 'Add Example' ),
-              'add_new_item'  => __( 'Add New Example' ),
-              'edit_item'     => __( 'Edit Example' ),
-          ),
-          'public'      => true,
-          'has_archive' => true,
-          )
-      );
-  }
+    public function register_example_post_type()
+    {
+        register_post_type(
+            'example',
+            array(
+                'labels'        => array(
+                    'name'          => __('Examples'),
+                    'singular_name' => __('Example'),
+                    'add_new'       => __('Add Example'),
+                    'add_new_item'  => __('Add New Example'),
+                    'edit_item'     => __('Edit Example'),
+                ),
+                'public'      => true,
+                'has_archive' => true,
+            )
+        );
+    }
 }
