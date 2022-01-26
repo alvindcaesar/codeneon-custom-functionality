@@ -18,6 +18,7 @@ class CCFP_Init {
 	public function __construct() {
 
 		$register_post_types     = new CCFP_Register_Post_Types();
+		$disable_auto_updates		 = new CCFP_Disable_Auto_Updates();
 		
 		
 	}
