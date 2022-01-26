@@ -19,6 +19,7 @@ class CCFP_Init {
 
 		$register_post_types     = new CCFP_Register_Post_Types();
 		$disable_auto_updates		 = new CCFP_Disable_Auto_Updates();
+		$remove_menu_pages			 = new CCFP_Remove_Menu_Pages();
 		
 		
 	}
